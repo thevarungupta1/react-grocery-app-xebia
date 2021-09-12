@@ -7,7 +7,7 @@ const ProductPage = () => {
     return(
         <>
             <Navbar/>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-3">
                         <SubCategory/>

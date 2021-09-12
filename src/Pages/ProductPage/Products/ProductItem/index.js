@@ -3,7 +3,7 @@ import React from "react";
 const ProductItem = (props) => {
   const { productName, price, mrp, image, unit, description } = props.product;
   return (
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <div class="card">
         <img src={'http://rjtmobile.com/grocery/images/'+ image} class="card-img-top" alt="..." />
         <div class="card-body">
